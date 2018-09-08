@@ -1,7 +1,49 @@
 const http = new easyHttp;
 
+// version 1 use format
 
+// Get format
+// http.get('https://jsonplaceholder.typicode.com/users', function(error, response){
+//    if(error) {
+//      console.log(error)
+//    } else {
+//      console.log(response);
+//    }
+// });
 
+// User Data
+// const data = {
+//     name: 'John Doe',
+//     username: 'johndoe',
+//     email: 'jdoe@gmail.com'
+// }
+
+// Post format
+// http.post('https://jsonplaceholder.typicode.com/users', data, function(error, response){
+//    if(error) {
+//      console.log(error)
+//    } else {
+//      console.log(response);
+//    }
+// });
+
+// Put format
+// http.put('https://jsonplaceholder.typicode.com/users/2', data, function(error, response){
+//    if(error) {
+//      console.log(error)
+//    } else {
+//      console.log(response);
+//    }
+// });
+
+// Delete format
+// http.delete('https://jsonplaceholder.typicode.com/users/2', function(error, response){
+//    if(error) {
+//      console.log(error)
+//    } else {
+//      console.log(response);
+//    }
+// });
 
 
 
